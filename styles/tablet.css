@@ -1,0 +1,63 @@
+.header {
+  background-image: url("../images/desktop/image-hero.jpg");
+}
+
+.mob_nav .menu_list {
+  display: none;
+  list-style: none;
+}
+
+.promo_card {
+  width: 520px;
+  max-width: 560px;
+}
+
+.promo_card .promo_card_txtcontainer {
+  padding: 48px 24px 0;
+  text-align: center;
+}
+
+.promo_card .promo_card_title {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+.promo_card .promo_card_text {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+.creations_container {
+  width: 520px;
+  max-width: 560px;
+}
+
+.creations_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.creations_title {
+  font-size: 2.4rem;
+}
+
+.mob_creations_btn {
+  display: none;
+}
+
+.creations_btn {
+  display: block;
+  padding: 13px 38px;
+  background: none;
+  color: var(--Black);
+  border: 1px solid var(--Black);
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+.creations_btn:hover {
+  color: var(--White);
+  background-color: var(--Black);
+}

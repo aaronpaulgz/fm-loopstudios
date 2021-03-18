@@ -1,0 +1,137 @@
+.mob_hamburger {
+  display: none;
+}
+
+.header {
+  padding: 64px 165px;
+}
+
+.mob_nav .menu_list {
+  display: flex;
+  list-style: none;
+}
+
+.menu_list .menu_listitem {
+  margin: 0 0 0 20px;
+  cursor: pointer;
+}
+
+.main {
+  padding: 0 64px;
+}
+
+.banner {
+  padding: 24px;
+  margin: 160px 0 0 0;
+  width: 650px;
+  max-width: 650px;
+  border: solid 2px var(--White);
+}
+
+.banner h1 {
+  font-size: 3rem;
+  line-height: 3.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.promo_card {
+  display: flex;
+  width: 1100px;
+  max-width: 1200px;
+  position: relative;
+}
+
+.promo_card .promo_card_img {
+  width: 730px;
+}
+
+.promo_card .promo_card_txtcontainer {
+  position: absolute;
+  padding: 96px 0 0 96px;
+  text-align: left;
+  max-width: 540px;
+  background-color: var(--White);
+  bottom: 0;
+  right: 0;
+}
+
+.promo_card .promo_card_title {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: var(--Black);
+}
+.promo_card .promo_card_text {
+  margin: 16px 0 0 0;
+  line-height: 1.4rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--Dark-Gray);
+}
+
+.creations_container {
+  width: 1100px;
+  max-width: 1200px;
+}
+
+.creations_cards_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 24px;
+  margin: 24px 0 0 0;
+}
+
+.creation {
+  display: flex;
+  width: 256px;
+  /* height: 450px; */
+  padding: 32px;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  align-items: flex-end;
+}
+
+.creation > p {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  text-align: start;
+  max-width: 160px;
+}
+
+.deep {
+  background-image: url("../images/desktop/image-deep-earth.jpg");
+}
+
+.night {
+  background-image: url("../images/desktop/image-night-arcade.jpg");
+}
+
+.soccer {
+  background-image: url("../images/desktop/image-soccer-team.jpg");
+}
+
+.thegrid {
+  background-image: url("../images/desktop/image-grid.jpg");
+}
+
+.from {
+  background-image: url("../images/desktop/image-from-above.jpg");
+}
+
+.pocket {
+  background-image: url("../images/desktop/image-pocket-borealis.jpg");
+}
+
+.curiosity {
+  background-image: url("../images/desktop/image-curiosity.jpg");
+}
+
+.fisheye {
+  background-image: url("../images/desktop/image-fisheye.jpg");
+}

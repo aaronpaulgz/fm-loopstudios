@@ -1,0 +1,250 @@
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-Gray: hsl(0, 0%, 55%);
+  --Very-Dark-Gray: hsl(0, 0%, 41%);
+  --Font1: "Josefin Sans";
+  --Font2: "Alata";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--Font1);
+  color: var(--White);
+}
+
+.header {
+  width: 100%;
+  min-height: 650px;
+  padding: 40px 24px;
+  background-image: url("../images/mobile/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header .mob_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mob_nav .mob_logo {
+  width: 144px;
+}
+
+.mob_nav .menu_list {
+  display: none;
+}
+
+.mob_menu {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  padding: 40px 24px;
+  background-color: var(--Black);
+}
+
+.mob_menunav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mob_menunav .mob_menulogo {
+  width: 144px;
+}
+
+.mob_menulist {
+  margin-top: 200px;
+}
+
+.mob_menulist > .mob_listitem {
+  list-style: none;
+  font-size: 1.2rem;
+  line-height: 2.8rem;
+  text-transform: uppercase;
+}
+
+.banner {
+  padding: 24px;
+  margin: 160px 0 0 0;
+  max-width: 375px;
+  border: solid 2px var(--White);
+}
+
+.banner h1 {
+  line-height: 2.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+}
+
+.promo_card {
+  margin: 96px auto;
+  width: 327px;
+  max-width: 425px;
+}
+.promo_card .promo_card_img {
+  width: 100%;
+}
+
+.promo_card .promo_card_txtcontainer {
+  padding: 48px 24px 0;
+  text-align: center;
+}
+
+.promo_card .promo_card_title {
+  font-size: 2rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  color: var(--Black);
+}
+.promo_card .promo_card_text {
+  margin: 16px 0 0 0;
+  line-height: 1.4rem;
+  font-weight: bold;
+  color: var(--Dark-Gray);
+}
+
+.creations_container {
+  margin: 0px auto 96px;
+  width: 327px;
+  max-width: 425px;
+  text-align: center;
+}
+
+.creations_title {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--Black);
+}
+
+.mob_creations_btn {
+  padding: 13px 38px;
+  margin: 34px;
+  background: none;
+  color: var(--Black);
+  border: 1px solid var(--Black);
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  outline: none;
+  cursor: pointer;
+}
+
+.mob_creations_btn:hover {
+  color: var(--White);
+  background-color: var(--Black);
+}
+
+.creations_btn {
+  display: none;
+}
+
+.creations_cards_container {
+  display: grid;
+  grid-column: 1fr;
+  grid-template-rows: repeat(8, 1fr);
+  gap: 24px;
+  margin: 24px 0 0 0;
+}
+
+.creation {
+  display: flex;
+  padding: 20px;
+  height: 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  align-items: flex-end;
+}
+
+.creation > p {
+  line-height: 1.4rem;
+  text-align: start;
+  max-width: 128px;
+}
+
+.deep {
+  background-image: url("../images/mobile/image-deep-earth.jpg");
+}
+
+.night {
+  background-image: url("../images/mobile/image-night-arcade.jpg");
+}
+
+.soccer {
+  background-image: url("../images/mobile/image-soccer-team.jpg");
+}
+
+.thegrid {
+  background-image: url("../images/mobile/image-grid.jpg");
+}
+
+.from {
+  background-image: url("../images/mobile/image-from-above.jpg");
+}
+
+.pocket {
+  background-image: url("../images/mobile/image-pocket-borealis.jpg");
+}
+
+.curiosity {
+  background-image: url("../images/mobile/image-curiosity.jpg");
+}
+
+.fisheye {
+  background-image: url("../images/mobile/image-fisheye.jpg");
+}
+
+.footer {
+  padding: 56px 52px;
+  background-color: var(--Black);
+  color: var(--White);
+}
+.footer .footer_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer_left .footer_logo {
+  width: 144px;
+}
+.footer_left .footer_list {
+  list-style: none;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.footer_list .footer_listitem {
+  margin-top: 24px;
+}
+
+.footer_right {
+  margin: 32px 0 0 0;
+  text-align: center;
+}
+
+/* .footer_right .footer_rrss {
+} */
+
+.footer_rrss .footer_rs {
+  margin: 0 6px;
+}
+
+.footer_right .footer_copy {
+  margin: 24px 0 0 0;
+  color: var(--Dark-Gray);
+  font-weight: bold;
+}
